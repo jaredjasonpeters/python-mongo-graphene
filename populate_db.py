@@ -49,3 +49,6 @@ class Query(QuerySet):
 
 for user in Query.get_user_where_first_name_is('Ross'):
     print(user.first_name, user.last_name, user.email)
+
+
+print(db)
