@@ -1,7 +1,7 @@
 
 from mongoengine import *
 
-connect('mongoenginedb', host='mongodb://localhost/mongoenginedb')
+connect('graph-mongo', host='mongodb://localhost/graph-mongo')
 
 
 class User(Document):
